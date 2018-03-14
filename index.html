@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script><script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <!-- Trivia game list -->
+
+    <!-- Who starred in the film "Die Hard"?
+
+    Eddie Murphy
+    Arnold Schwarzeneggar
+    Bruce Willis *
+    Sylvester Stallone
+
+
+    Who is the only remaining founding member of Judas Priest?
+
+    Rob Halford
+    Glenn Tipton
+    Ian Hill *
+    Dave Holland
+    
+    Who is the creator of the the absurdist cartoon series "Earthworm Jim"?
+
+    Stephen Hillenburg
+    Chris Savino
+    Doug TenNapel *
+    John Kricfalusi
+    
+    Who holds the record for appearing in the most episodes of Star Trek?
+    
+    Patrick Stewart
+    Majel Barrett *
+    Leonard Nimoy
+    Michael Dorn
+    
+    Under what physical concept does the spoiler of a car operate?
+    
+    Lorentz Factor
+    Coulombs Law
+    Dunning-Kreuger Effect
+    Bernoulli Principle *
+
+
+    In what year did the last armed charge by mounted horsemen occur?
+
+    1918
+    1938
+    1942 *
+    1985 -->
+
+
+    <h1> Trivia Game! </h1>
+
+    <h2>
+        Answer the questions as fast as you can.  You get 90 seconds.
+    </h2>
+
+    <h3>Who starred in the film "Die Hard"?</h3>
+    <form>
+        <input type="radio" name="actor" value="wrong"> Eddie Murphy
+        <br>
+        <input type="radio" name="actor" value="wrong"> Arnold Schwarzeneggar
+        <br>
+        <input id="diehard" type="radio" name="actor" value="right"> Bruce Willis
+        <br>
+        <input type="radio" name="actor" value="wrong"> Sylvester Stallone
+        <br>
+
+    </form>
+
+    <h3>Who is the only remaining founding member of Judas Priest?</h3>
+    <form>
+        <input type="radio" name="actor" value="wrong"> Rob Halford
+        <br>
+        <input type="radio" name="actor" value="wrong"> Glenn Tipton
+        <br>
+        <input id="judaspriest" type="radio" name="actor" value="right"> Ian Hill
+        <br>
+        <input type="radio" name="actor" value="wrong"> Dave Holland
+        <br>
+
+    </form>
+
+    <h3>Who is the creator of the the absurdist cartoon series "Earthworm Jim"?</h3>
+    <form>
+        <input type="radio" name="actor" value="wrong"> Stephen Hillenburg
+        <br>
+        <input type="radio" name="actor" value="wrong"> Chris Savino
+        <br>
+        <input id="ewj" type="radio" name="actor" value="right"> Doug TenNapel
+        <br>
+        <input type="radio" name="actor" value="wrong"> John Kricfalusi
+        <br>
+
+    </form>
+
+    <h3>Who holds the record for appearing in the most episodes of Star Trek?</h3>
+    <form>
+        <input type="radio" name="actor" value="wrong"> Patrick Stewart
+        <br>
+        <input id="startrek" type="radio" name="actor" value="right"> Majel Barrett
+        <br>
+        <input type="radio" name="actor" value="wrong"> Leonard Nimoy
+        <br>
+        <input type="radio" name="actor" value="wrong"> Michael Dorn
+        <br>
+
+    </form>
+
+    <h3>Under what physical concept does the spoiler of a car operate?</h3>
+    <form>
+        <input type="radio" name="actor" value="wrong"> Lorentz Factor
+        <br>
+        <input type="radio" name="actor" value="wrong"> Coulombs Law
+        <br>
+        <input type="radio" name="actor" value="right"> Dunning-Kreuger Effect
+        <br>
+        <input id="fnf" type="radio" name="actor" value="right"> Bernoulli Principle
+        <br>
+
+    </form>
+
+    <h3>In what year did the last armed charge by mounted horsemen occur?</h3>
+    <form>
+        <input type="radio" name="actor" value="wrong"> 1918
+        <br>
+        <input type="radio" name="actor" value="wrong"> 1938
+        <br>
+        <input id="ww2" type="radio" name="actor" value="right"> 1942
+        <br>
+        <input type="radio" name="actor" value="wrong"> 1985
+        <br>
+
+    </form>
+
+    <button id="done">
+        Done!
+    </button>
+
+    <h2>Score </h2>
+    <h2 class="text-center" id="score"></h2>
+
+
+
+ 
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
