@@ -1,5 +1,25 @@
 //timer
 
+$("#daquiz").hide();
+$("#finish").hide();
+
+
+//BROKEN CODE
+// $("#start").on("click",
+// function() {$("#daquiz").show()
+// console.log("button works!")
+// );
+
+$( "#start" ).click(function() {
+    $( "#daquiz" ).show( "slow" );
+  });
+    
+
+$( "#done" ).click(function() {
+    $( "#finish" ).show( "slow" );
+    $("#daquiz").hide( "slow" );
+  });
+
 setTimeout(function(){
     totalscore = 0;
         //if Die Hard question is answered correctly
